@@ -1,6 +1,6 @@
 import pymysql
 conn = pymysql.connect(host='tsuts.tskoli.is', user='2201002860', passwd='mypassword', db='2201002860_vef2Verk11')
-
+import argv
 from bottle import *
 
 def rows(cur):
