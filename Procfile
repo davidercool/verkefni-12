@@ -1,1 +1,1 @@
-web: python ./Okutaeki.py $PORT
+web: python ./app.py $PORT
